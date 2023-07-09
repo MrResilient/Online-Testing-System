@@ -1,2 +1,2 @@
 # Online-Testing-System
-A basic Online Testing System(OTS) nuilt using HTML, CSS, Javascript, Django.
+A basic Online Testing System(OTS) built using HTML, CSS, Javascript, Django.
