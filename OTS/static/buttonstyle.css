@@ -1,0 +1,30 @@
+.button-link{
+    width: 200px;
+    height: 40px;
+    background-color: red;
+    color:black;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    /* box-shadow: 10px 10px ; */
+    /* box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); */
+    transition: 0.5s;
+    
+}
+
+.button-link a{
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+}
+
+.button-link a:hover{
+    color: yellow;
+}
+
+.button-link:hover{
+    transform:translateX(25px);
+    background-color: black;
+}
+
