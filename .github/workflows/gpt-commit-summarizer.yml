@@ -1,0 +1,15 @@
+on: [push]
+
+jobs:
+  blog-generation-job:
+    runs-on: ubuntu-latest
+    name: Automatic blog generation
+    steps:
+      - name: Commit Blog Generator
+        uses: srajansohani/commit-blog-generator@v0.10
+        with:
+          blog-domain: 'Your-Blog-Domain'
+        env:
+          HASHNODE_ACCESS_TOKEN: ${{ secrets.HASHNODE_ACCESS_TOKEN }}
+          GITHUB_ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
