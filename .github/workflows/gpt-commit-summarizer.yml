@@ -8,7 +8,7 @@ jobs:
       - name: Commit Blog Generator
         uses: srajansohani/commit-blog-generator@v0.14
         with:
-          blog-domain: 'Your-Blog-Domain'
+          blog-domain: 'shivanshjain.hashnode.dev'
         env:
           HASHNODE_ACCESS_TOKEN: ${{ secrets.HASHNODE_ACCESS_TOKEN }}
           GITHUB_ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
